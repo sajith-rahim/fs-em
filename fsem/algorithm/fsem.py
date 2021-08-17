@@ -1,5 +1,7 @@
 import numpy as np
 
+from utils.logger import Logger
+
 
 class FellegiSunterEM:
 
@@ -15,6 +17,8 @@ class FellegiSunterEM:
         self.dfB = dfB
         self.n1 = dfA.shape[0]
         self.n2 = dfB.shape[0]
+
+        self.logger = Logger().get_logger(file_name='em')
 
     def e_step(self, agree_matrix, p, m, u):
         n, k = agree_matrix.shape
@@ -61,6 +65,8 @@ class FellegiSunterEM:
             m = np.dot(g_m, agree_matrix / sigma_gm)
             u = np.dot(g_u, agree_matrix / sigma_gu)
 
+            self.logger.info("p:{} m:{} u:{}".format(p, m, u))
+
             if np.any(m > 0.99999):
                 m[m > 0.99999] = 0.99999
             if np.any(m < 0.00001):
@@ -99,6 +105,9 @@ class FellegiSunterEM:
                 conv_flag = 2
 
         print("Run completed.")
+        self.logger.info("Run completed.")
+        _conv = "Converged =)" if conv_flag == 1 else "Not Converged :( "
+        self.logger.info("\nagree-score:{},\ndisagree-score:{}, \nprob:{},\nconvergence-flag:{}".format(m, u, p, _conv))
 
         return {
             "agree-score": m,
