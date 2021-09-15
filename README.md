@@ -17,3 +17,78 @@
 ]
 ```
 
+### Project Structure
+```
+fsem
+|   .gitignore
+|   LICENSE
+|   main.py
+|   README.md
+|
++---.idea
+|   |   .gitignore
+|   |   FSEM.iml
+|   |   misc.xml
+|   |   modules.xml
+|   |   workspace.xml
+|   |
+|   \---inspectionProfiles
+|           profiles_settings.xml
+|           Project_Default.xml
+|
++---data
+|       RL1.csv
+|       RL2.csv
+|
++---examples
+|   |   RL_dataset.py
+|   |
+|   \---__pycache__
+|           RL_dataset.cpython-37.pyc
+|
++---fsem
+|   |   __init__.py
+|   |
+|   +---algorithm
+|   |   |   fsem.py
+|   |   |   __init__.py
+|   |   |
+|   |   \---__pycache__
+|   |           fsem.cpython-37.pyc
+|   |           __init__.cpython-37.pyc
+|   |
+|   +---preprocessing
+|   |   |   process.py
+|   |   |   __init__.py
+|   |   |
+|   |   \---__pycache__
+|   |           process.cpython-37.pyc
+|   |           __init__.cpython-37.pyc
+|   |
+|   +---similarity_measures
+|   |   |   jaro.py
+|   |   |   levenshtein.py
+|   |   |   __init__.py
+|   |   |
+|   |   +---utils
+|   |   |   |   utils.py
+|   |   |   |
+|   |   |   \---__pycache__
+|   |   |           utils.cpython-37.pyc
+|   |   |
+|   |   \---__pycache__
+|   |           jaro.cpython-37.pyc
+|   |           levenshtein.cpython-37.pyc
+|   |           __init__.cpython-37.pyc
+|   |
+|   \---utils
+|       |   logger.py
+|       |   utils.py
+|       |
+|       \---__pycache__
+|               logger.cpython-37.pyc
+|               utils.cpython-37.pyc
+|
+\---logs
+        em-18-8-2021.log
+```
