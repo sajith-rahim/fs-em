@@ -25,17 +25,6 @@ fsem
 |   main.py
 |   README.md
 |
-+---.idea
-|   |   .gitignore
-|   |   FSEM.iml
-|   |   misc.xml
-|   |   modules.xml
-|   |   workspace.xml
-|   |
-|   \---inspectionProfiles
-|           profiles_settings.xml
-|           Project_Default.xml
-|
 +---data
 |       RL1.csv
 |       RL2.csv
