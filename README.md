@@ -2,6 +2,11 @@
 *Implementation of  Winkler's Expectation Maximization for Fellegi Sunter Record Linkage*
 
 
+#### EM - FS Model
+![EM-Algo](examples/img/fsem_.png)
+
+
+#### Cross Join - Record Pairs
 ```html
 [
  ['A1', 'B12', 1.0, 1.0, 0.0, 0.0],
