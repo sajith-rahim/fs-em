@@ -14,8 +14,9 @@
 
 *Implementation of  Winkler's Expectation Maximization for Fellegi Sunter Record Linkage. *
 
-* Calculate m,u and p values for FS
-* Extendible with custom similarity functions
+1. Calculate m,u and p values for FS
+2. Extendible with custom similarity functions
+
 
 
 
