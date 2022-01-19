@@ -1,8 +1,8 @@
 import pandas as pd
 import itertools
 
-from similarity_measures.jaro import get_jaro_distance
-from similarity_measures.levenshtein import levenshtein_similarity
+from fsem.similarity_measures.jaro import get_jaro_distance
+from fsem.similarity_measures.levenshtein import levenshtein_similarity
 
 
 class PreProcessRLData:
