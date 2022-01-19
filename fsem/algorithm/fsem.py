@@ -1,6 +1,6 @@
 import numpy as np
 
-from utils.logger import Logger
+from fsem.utils.logger import Logger
 
 
 class FellegiSunterEM:
