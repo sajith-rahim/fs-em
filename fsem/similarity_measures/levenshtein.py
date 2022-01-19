@@ -1,4 +1,4 @@
-from utils.utils import check_if_none, check_if_type
+from fsem.utils.utils import check_if_none, check_if_type
 
 """
 modified from https://github.com/nap/jaro-winkler" \
