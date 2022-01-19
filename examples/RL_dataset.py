@@ -1,8 +1,8 @@
 import os
 import pandas as pd
 
-from algorithm.fsem import FellegiSunterEM
-from preprocessing.process import PreProcessRLData
+from fsem.algorithm.fsem import FellegiSunterEM
+from fsem.preprocessing.process import PreProcessRLData
 
 
 def run():
