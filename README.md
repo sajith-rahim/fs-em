@@ -290,5 +290,5 @@ BSD 3-Clause License
 
 ## Acknowledgments
 
-Jaro.py : 'Jean-Bernard Ratte - jean.bernard.ratte@unary.ca'
+Jaro : 'Jean-Bernard Ratte - jean.bernard.ratte@unary.ca'
 Levenshtein: modified from https://github.com/nap/jaro-winkler
