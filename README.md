@@ -117,7 +117,9 @@ From the root directory run
 ```powershell
 python main.py
 ```
+
 this will execute 
+
 ```powershell
 examples\RL_dataset.py
 ```
