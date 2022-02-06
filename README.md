@@ -274,7 +274,7 @@ Checkout this dedicated lib for string similarity measures <a href="https://gith
 |  
 |
 \---logs
-        em-20-1-2022.log
+        em-20-2-2022.log
 ```
 
 ## Deployment
