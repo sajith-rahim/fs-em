@@ -12,7 +12,7 @@
 
 # Fellegi Sunter Record Linkage - Expectation Maximization.
 
-*Implementation of  Winkler's Expectation Maximization for Fellegi Sunter Record Linkage. *
+*Implementation of  Winkler's Expectation Maximization for Fellegi Sunter Record Linkage.*
 
 1. Calculate m,u and p values for FS
 2. Extendible with custom similarity functions
